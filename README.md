@@ -20,4 +20,4 @@ galileos:
             #nohup watch -n60 "python {sensor,actuator}.py" 
        in the appropriate device else run 
             #sh run.sh
-       so that the Galileos and the server update the shared data every 1 minute.
+       so that the Galileos and the server update the shared data every 1 minute..
