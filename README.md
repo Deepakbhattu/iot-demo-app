@@ -15,7 +15,8 @@ galileos:
      *    #python get_pip.py
      *    #pip install mechanize
   -  2. burn the image in an sd card and boot the Galileo.
-  -  3. echo "source setup.sh" >> .bashrc (different setup.sh for the sensor and the actuator)
+  -  3. Setup the sensors and the actuators (different setup.sh for each device): 
+     * #echo "source setup.sh" >> .bashrc
   -  4. The Galileos shall connect with the server every x seconds (here 1 minute):
       * if "nohup" and "watch" commands are available run: <br/>
            - #nohup watch -n60 "python {sensor,actuator}.py" in the appropriate device
