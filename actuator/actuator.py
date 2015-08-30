@@ -3,7 +3,8 @@ import json
 import os												
 
 ACTUATOR_NAME = "galileo2"
-ACTIVE_SENSORS = set([“galileo1”])							                PIN_OUT = “/sys/class/gpio/gpio26/value”
+ACTIVE_SENSORS = set([“galileo1”])							                
+PIN_OUT = “/sys/class/gpio/gpio26/value”
 
 browser = mechanize.Browser()
 browser.set_handle_robots(False)
